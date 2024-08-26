@@ -17,3 +17,6 @@ Testing RepSC-PA:
 ```Bash
 CUDA_VISIBLE_DEVICES=0 python test.py -opt ./options/test/*.yml
 ```
+
+# Result
+
