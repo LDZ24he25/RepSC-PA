@@ -85,8 +85,6 @@ This codebase was tested with the following environment configurations. It may w
 
 ```
 pip install -r requirements.txt
-
-
 ```
 
 ### Data Preparation
