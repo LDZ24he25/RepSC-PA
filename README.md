@@ -111,7 +111,7 @@ As DF2K-ODI is already consisted of image patches, cropping patches for lau data
 Maximum `gt_size` for DF2K-ODI is 256.
 
 ### Training
-We provide training options of RepSC-PA on X2, X4 AND X8 SR.
+We provide training options of RepSC-PA on X2, X4 and X8 SR.
 
 All comparison models on X4 SR is available.
 
