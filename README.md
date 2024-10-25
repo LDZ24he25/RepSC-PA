@@ -28,7 +28,6 @@ art lightweight ODISR models while maintaining competitive performance.
 
 ## 📑 Contents
 
-- [Visual Results](#visual_results)
 - [Results](#results)
 - [Installation](#installation)
 - [Training](#training)
@@ -37,10 +36,6 @@ art lightweight ODISR models while maintaining competitive performance.
 
 
 
-
-
-
-## <a name="visual_results"></a>:eyes:Visual Results 
 
 
 ## <a name="results"></a> 🥇 Results
