@@ -42,12 +42,6 @@ art lightweight ODISR models while maintaining competitive performance.
 
 ## <a name="visual_results"></a>:eyes:Visual Results 
 
-<p align="center">
-  <img width="800" src="assets/visual_results.png">
-</p>
-
-
-
 
 ## <a name="results"></a> 🥇 Results
 
@@ -55,7 +49,7 @@ We achieve state-of-the-art performance on various image restoration tasks. Deta
 
 
 <details>
-<summary>Evaluation on Classic SR (click to expand)</summary>
+<summary>Presentation of Results (click to expand)</summary>
 
 <p align="center">
   <img width="500" src="assets/result.png">
@@ -64,7 +58,7 @@ We achieve state-of-the-art performance on various image restoration tasks. Deta
 
 
 <details>
-<summary>Evaluation on Classic SR (click to expand)</summary>
+<summary>Contrast experiment (click to expand)</summary>
 
 <p align="center">
   <img width="500" src="assets/result2.png">
