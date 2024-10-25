@@ -105,7 +105,7 @@ python odisr/utils/make_augmentation_dataset.py
 As DF2K-ODI is already consisted of image patches, cropping patches for lau datasets is __NECESSARY__ when training with this dataset.
 Maximum `gt_size` for DF2K-ODI is 256.
 
-### Training
+## <a name="training"></a>  :hourglass: Training
 We provide training options of RepSC-PA on X2, X4 and X8 SR.
 
 All comparison models on X4 SR is available.
@@ -117,7 +117,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 
 
 
-### Testing
+## <a name="testing"></a> :smile: Testing
 
 Testing RepSC-PA:
 ```bash
