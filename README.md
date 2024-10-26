@@ -146,6 +146,8 @@ Training RepSC-PA:
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 --master_port=7777 train.py -opt ./options/train/*.yml --launcher pytorch
 ```
 
+We provide [trained models](https://pan.baidu.com/s/13DccC5bLNtngrbc50KAtVg?pwd=1234).
+
 
 
 ## <a name="testing"></a> :smile: Testing
