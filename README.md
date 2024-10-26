@@ -125,5 +125,7 @@ ln -s YOUR_PRETRAIN_MODEL_PATH pretrained_models
 CUDA_VISIBLE_DEVICES=0 python test.py -opt ./options/test/*.yml
 ```
 
+## Acknowledgement
+This code is based on [BasicSR](https://github.com/XPixelGroup/BasicSR), and [OSRT](https://github.com/Fanghua-Yu/OSRT). Thanks for their awesome work.
 
 
