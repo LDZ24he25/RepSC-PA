@@ -162,14 +162,24 @@ For the calculation of the number of parameters and the amount of computation, w
 
 ## <a name="algorithm_details"></a> :page_with_curl: Algorithm Details
 If you want to change the model, add the other models to /odisr/archs. We will briefly introduce our algorithm and implementation.
+
 1.Distortion map
 The transformation from fisheye image to ERP image introduces distortion, to which we leverage the Jacobian determinant Equation to establish a similar area ratio between the fish-eye lens-captured image and the ERP image. You will find it in /odisr/data/erp_paired_image_dataset.py.
+
+<p align="center">
+    <img src="assets/data_process.png" style="border-radius: 15px">
+</p>
 
 2.Reparameterized Block
 To extract features of varying patterns, we employ convolution through multiple parallel convolutions with diverse receptive fields and edge-oriented convolution modules. Additionally, we utilize residual connections to aggregate features, thereby enhancing feature representation capability. RepBlock is based on the module in RepRFN, which you can find it in /odisr/archs/rfpoub.py.
 
+<p align="center">
+    <img src="assets/repblock.png" style="border-radius: 15px">
+</p>
+
 3.Frequency Domain Feature Module
 Since FAM is not open source, we built a plug-in FAM module to extract features in the frequency domain.
+
 
 ## Acknowledgement
 This code is based on [BasicSR](https://github.com/XPixelGroup/BasicSR), and [OSRT](https://github.com/Fanghua-Yu/OSRT). Thanks for their awesome work.
